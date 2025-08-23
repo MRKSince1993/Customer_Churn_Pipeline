@@ -1,0 +1,15 @@
+2025-08-23 14:12:09,218 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-23 14:12:09,239 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-23 14:12:09,276 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250823.csv
+2025-08-23 14:16:54,814 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-23 14:16:54,838 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-23 14:16:54,873 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250823.csv
+2025-08-23 14:20:35,653 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-23 14:20:35,657 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-23 14:20:40,491 - INFO - ingest_hf_data - Successfully loaded 74 sample interactions.
+2025-08-23 14:20:40,491 - INFO - ingest_hf_data - Simulating interaction features for each customer.
+2025-08-23 14:20:40,539 - INFO - ingest_hf_data - Generated simulated interaction data for 7043 customers.
+2025-08-23 14:20:40,540 - INFO - ingest_hf_data - Storing processed data into SQLite DB at C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\silver\interactions.db
+2025-08-23 14:20:40,587 - INFO - ingest_hf_data - Successfully stored interaction data in the database.
+2025-08-23 17:15:55,355 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-23 17:15:55,360 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=23\telco_churn_20250823.csv
