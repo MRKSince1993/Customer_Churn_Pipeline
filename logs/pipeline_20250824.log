@@ -197,3 +197,43 @@ ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
 2025-08-24 11:27:11,928 - INFO - transform - Applying scaling and encoding transformations.
 2025-08-24 11:27:11,965 - INFO - transform - Storing transformed data to SQLite DB at data/silver/features.db.
 2025-08-24 11:27:12,028 - INFO - transform - Transformation and storage complete.
+2025-08-24 12:28:33,691 - INFO - train - Starting model training process.
+2025-08-24 12:29:44,310 - INFO - train - Starting model training process.
+2025-08-24 12:31:07,723 - INFO - train - Starting model training process.
+2025-08-24 12:37:28,867 - INFO - train - Starting model training process.
+2025-08-24 12:37:29,216 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 12:48:22,516 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 12:48:22,644 - INFO - transform - Engineering new features.
+2025-08-24 12:50:15,818 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 12:50:15,888 - INFO - transform - Engineering new features.
+2025-08-24 12:51:32,209 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 12:51:32,270 - INFO - transform - Engineering new features.
+2025-08-24 12:51:32,276 - INFO - transform - Applying scaling and encoding transformations.
+2025-08-24 12:51:32,323 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 12:52:42,870 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 12:52:42,930 - INFO - transform - Engineering new features.
+2025-08-24 12:52:42,935 - INFO - transform - Applying scaling and encoding transformations.
+2025-08-24 12:52:42,956 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 12:53:19,558 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 12:53:19,621 - INFO - transform - Engineering new features.
+2025-08-24 12:53:19,624 - INFO - transform - Applying scaling and encoding transformations.
+2025-08-24 12:53:19,654 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 12:54:03,294 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 12:54:03,391 - INFO - transform - Engineering new features.
+2025-08-24 12:54:03,399 - INFO - transform - Applying scaling and encoding transformations.
+2025-08-24 12:54:03,469 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 12:54:03,591 - INFO - transform - Transformation and storage complete.
+2025-08-24 13:20:48,295 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 13:20:48,417 - INFO - transform - Engineering new features.
+2025-08-24 13:20:48,428 - INFO - transform - Applying scaling and encoding transformations.
+2025-08-24 13:23:13,819 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 13:23:13,877 - INFO - transform - Engineering new features.
+2025-08-24 13:23:13,881 - INFO - transform - Applying scaling and encoding transformations.
+2025-08-24 13:25:55,465 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 13:25:55,542 - INFO - transform - Loaded data with columns: ['gender', 'tenure', 'PhoneService', 'PaperlessBilling', 'MonthlyCharges', 'TotalCharges', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago', 'num_optional_services', 'monthly_charge_per_tenure', 'SeniorCitizen_Yes', 'Partner_Yes', 'Dependents_Yes', 'MultipleLines_No phone service', 'MultipleLines_Yes', 'InternetService_Fiber optic', 'InternetService_No', 'Contract_One year', 'Contract_Two year', 'PaymentMethod_Credit card (automatic)', 'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check', 'Churn_Yes', 'tenure_group_Loyal', 'tenure_group_New', 'tenure_group_nan', 'tenure_group_Unknown', 'event_timestamp']
+2025-08-24 13:25:55,542 - INFO - transform - Engineering new features.
+2025-08-24 13:30:04,943 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 13:30:05,017 - INFO - transform - Loaded data with columns: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago']
+2025-08-24 13:30:05,018 - INFO - transform - Engineering new features.
+2025-08-24 13:30:05,092 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 13:30:05,213 - INFO - transform - Transformation and storage complete.

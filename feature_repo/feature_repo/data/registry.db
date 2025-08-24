@@ -1,0 +1,54 @@
+
+S
+3
+
+customerID"
+customerIDJcustomer_churn_pipeline
+†€«ÅÀæ°®†€«ÅÀæ°®
+N
+.
+__dummy"
+__dummy_idJcustomer_churn_pipeline
+†€«ÅÀæ°®†€«ÅÀæ°®1"$c61199ac-39ed-4385-94e3-e3aae49cbfb4*Í«Åˆ¬Ïp2Ü
+¥
+churn_features_viewcustomer_churn_pipeline
+customerID"
+
+gender"
+
+tenure"
+PhoneService"
+PaperlessBilling"
+MonthlyCharges"
+TotalCharges"
+support_calls"
+satisfaction_score"
+last_interaction_days_ago"
+num_optional_services"
+monthly_charge_per_tenure"
+SeniorCitizen_Yes"
+Partner_Yes"
+Dependents_Yes""
+MultipleLines_No phone service"
+MultipleLines_Yes"
+InternetService_Fiber optic"
+InternetService_No"
+Contract_One year"
+Contract_Two year")
+%PaymentMethod_Credit card (automatic)""
+PaymentMethod_Electronic check"
+PaymentMethod_Mailed check"
+	Churn_Yes"
+tenure_group_Loyal"
+tenure_group_New"
+tenure_group_Unknown2€ç„:Áevent_timestampZmkC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢kC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet’È«Å¨«Ì="È«Å¨«Ì=@b
+
+customerID2
+†€«ÅÀæ°®Í«Åˆ¬Ïp
+Í§¦¶àÌ“A ©¬ÅRÖ
+Ó
+,feast.infra.online_stores.sqlite.SqliteTable"¢
+sC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\feature_repo\feature_repo\data\online_store.db+customer_churn_pipeline_churn_features_viewbİevent_timestampZmkC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢kC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquetªcustomer_churn_pipeline’†€«ÅğÃ½"†€«ÅÀæ°®Š9
+
+customer_churn_pipeline
+†€«Åğ®Á‘†€«Åğ®Á‘
