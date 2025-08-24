@@ -1,0 +1,199 @@
+2025-08-24 00:54:12,316 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 00:54:12,335 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 00:54:12,371 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 00:54:50,981 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/telco_churn_20250823.csv
+2025-08-24 00:54:50,982 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-24 00:54:56,188 - ERROR - ingest_hf_data - An unexpected error occurred: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+Traceback (most recent call last):
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\ingestion\ingest_hf_data.py", line 30, in ingest_and_process_hf_data
+    interactions_df = hf_dataset['train'].to_pandas()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 5155, in to_pandas
+    ).to_pandas(types_mapper=pandas_types_mapper)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow\\array.pxi", line 1020, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow\\table.pxi", line 5177, in pyarrow.lib.Table._to_pandas
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 823, in table_to_dataframe
+    _reconstruct_block(item, column_names, ext_columns_dtypes)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 768, in _reconstruct_block
+    return _int.make_block(arr, placement=placement)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\api.py", line 89, in make_block
+    check_ndim(values, placement, ndim)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 2423, in check_ndim
+    raise ValueError(
+ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+2025-08-24 00:56:22,920 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/telco_churn_20250823.csv
+2025-08-24 00:56:22,922 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-24 00:56:28,730 - ERROR - ingest_hf_data - An unexpected error occurred: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+Traceback (most recent call last):
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\ingestion\ingest_hf_data.py", line 30, in ingest_and_process_hf_data
+    interactions_df = hf_dataset['train'].to_pandas()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 5155, in to_pandas
+    ).to_pandas(types_mapper=pandas_types_mapper)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow\\array.pxi", line 1020, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow\\table.pxi", line 5177, in pyarrow.lib.Table._to_pandas
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 823, in table_to_dataframe
+    _reconstruct_block(item, column_names, ext_columns_dtypes)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 768, in _reconstruct_block
+    return _int.make_block(arr, placement=placement)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\api.py", line 89, in make_block
+    check_ndim(values, placement, ndim)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 2423, in check_ndim
+    raise ValueError(
+ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+2025-08-24 00:58:08,313 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250823.csv
+2025-08-24 00:58:08,315 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-24 00:58:13,665 - ERROR - ingest_hf_data - An unexpected error occurred: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+Traceback (most recent call last):
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\ingestion\ingest_hf_data.py", line 30, in ingest_and_process_hf_data
+    interactions_df = hf_dataset['train'].to_pandas()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 5155, in to_pandas
+    ).to_pandas(types_mapper=pandas_types_mapper)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow\\array.pxi", line 1020, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow\\table.pxi", line 5177, in pyarrow.lib.Table._to_pandas
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 823, in table_to_dataframe
+    _reconstruct_block(item, column_names, ext_columns_dtypes)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 768, in _reconstruct_block
+    return _int.make_block(arr, placement=placement)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\api.py", line 89, in make_block
+    check_ndim(values, placement, ndim)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 2423, in check_ndim
+    raise ValueError(
+ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+2025-08-24 01:04:58,575 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250823.csv
+2025-08-24 01:04:58,577 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-24 01:05:03,406 - ERROR - ingest_hf_data - An unexpected error occurred: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+Traceback (most recent call last):
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\ingestion\ingest_hf_data.py", line 30, in ingest_and_process_hf_data
+    interactions_df = hf_dataset['train'].to_pandas()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 5155, in to_pandas
+    ).to_pandas(types_mapper=pandas_types_mapper)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow\\array.pxi", line 1020, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow\\table.pxi", line 5177, in pyarrow.lib.Table._to_pandas
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 823, in table_to_dataframe
+    _reconstruct_block(item, column_names, ext_columns_dtypes)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 768, in _reconstruct_block
+    return _int.make_block(arr, placement=placement)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\api.py", line 89, in make_block
+    check_ndim(values, placement, ndim)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 2423, in check_ndim
+    raise ValueError(
+ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+2025-08-24 01:09:17,742 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250823.csv
+2025-08-24 01:09:17,745 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-24 01:09:24,123 - ERROR - ingest_hf_data - An unexpected error occurred: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+Traceback (most recent call last):
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\ingestion\ingest_hf_data.py", line 30, in ingest_and_process_hf_data
+    interactions_df = hf_dataset['train'].to_pandas()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 5155, in to_pandas
+    ).to_pandas(types_mapper=pandas_types_mapper)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow\\array.pxi", line 1020, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow\\table.pxi", line 5177, in pyarrow.lib.Table._to_pandas
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 823, in table_to_dataframe
+    _reconstruct_block(item, column_names, ext_columns_dtypes)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 768, in _reconstruct_block
+    return _int.make_block(arr, placement=placement)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\api.py", line 89, in make_block
+    check_ndim(values, placement, ndim)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 2423, in check_ndim
+    raise ValueError(
+ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+2025-08-24 01:12:37,611 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250823.csv
+2025-08-24 01:12:37,612 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-24 01:12:42,493 - INFO - ingest_hf_data - Dataset loaded successfully.
+2025-08-24 01:12:42,494 - ERROR - ingest_hf_data - An unexpected error occurred: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+Traceback (most recent call last):
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\ingestion\ingest_hf_data.py", line 32, in ingest_and_process_hf_data
+    interactions_df = hf_dataset['train'].to_pandas()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 5155, in to_pandas
+    ).to_pandas(types_mapper=pandas_types_mapper)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow\\array.pxi", line 1020, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow\\table.pxi", line 5177, in pyarrow.lib.Table._to_pandas
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 823, in table_to_dataframe
+    _reconstruct_block(item, column_names, ext_columns_dtypes)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 768, in _reconstruct_block
+    return _int.make_block(arr, placement=placement)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\api.py", line 89, in make_block
+    check_ndim(values, placement, ndim)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 2423, in check_ndim
+    raise ValueError(
+ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+2025-08-24 01:13:48,756 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250823.csv
+2025-08-24 01:13:48,757 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-24 01:13:53,438 - INFO - ingest_hf_data - Dataset loaded successfully.
+2025-08-24 01:13:53,440 - ERROR - ingest_hf_data - An unexpected error occurred: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+Traceback (most recent call last):
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\ingestion\ingest_hf_data.py", line 34, in ingest_and_process_hf_data
+    interactions_df = hf_dataset['train'].to_pandas()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 5155, in to_pandas
+    ).to_pandas(types_mapper=pandas_types_mapper)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow\\array.pxi", line 1020, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow\\table.pxi", line 5177, in pyarrow.lib.Table._to_pandas
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 823, in table_to_dataframe
+    _reconstruct_block(item, column_names, ext_columns_dtypes)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 768, in _reconstruct_block
+    return _int.make_block(arr, placement=placement)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\api.py", line 89, in make_block
+    check_ndim(values, placement, ndim)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 2423, in check_ndim
+    raise ValueError(
+ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+2025-08-24 01:18:12,259 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250823.csv
+2025-08-24 01:18:12,262 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-24 01:18:17,210 - ERROR - ingest_hf_data - An unexpected error occurred: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+Traceback (most recent call last):
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\ingestion\ingest_hf_data.py", line 30, in ingest_and_process_hf_data
+    interactions_df = hf_dataset['train'].to_pandas()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\datasets\arrow_dataset.py", line 5155, in to_pandas
+    ).to_pandas(types_mapper=pandas_types_mapper)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow\\array.pxi", line 1020, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow\\table.pxi", line 5177, in pyarrow.lib.Table._to_pandas
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 823, in table_to_dataframe
+    _reconstruct_block(item, column_names, ext_columns_dtypes)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 768, in _reconstruct_block
+    return _int.make_block(arr, placement=placement)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\api.py", line 89, in make_block
+    check_ndim(values, placement, ndim)
+  File "C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 2423, in check_ndim
+    raise ValueError(
+ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
+2025-08-24 11:14:15,801 - INFO - ingest_hf_data - Loaded 7043 customer IDs from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250823.csv
+2025-08-24 11:14:15,804 - INFO - ingest_hf_data - Loading 'Kaludi/Customer-Support-Responses' dataset from Hugging Face.
+2025-08-24 11:14:20,426 - INFO - ingest_hf_data - Successfully loaded 74 sample interactions.
+2025-08-24 11:14:20,427 - INFO - ingest_hf_data - Simulating interaction features for each customer.
+2025-08-24 11:14:20,461 - INFO - ingest_hf_data - Generated simulated interaction data for 7043 customers.
+2025-08-24 11:14:20,462 - INFO - ingest_hf_data - Storing processed data into SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\interactions.db
+2025-08-24 11:14:20,487 - INFO - ingest_hf_data - Successfully stored interaction data in the database.
+2025-08-24 11:16:27,082 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 11:16:27,087 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 11:19:21,942 - INFO - validate_data - Starting raw data validation.
+2025-08-24 11:19:21,943 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 11:19:21,970 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 11:19:22,022 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 11:27:11,763 - INFO - transform - Starting data transformation from data/silver/cleaned_churn_data.parquet.
+2025-08-24 11:27:11,903 - INFO - transform - Engineering new features.
+2025-08-24 11:27:11,928 - INFO - transform - Applying scaling and encoding transformations.
+2025-08-24 11:27:11,965 - INFO - transform - Storing transformed data to SQLite DB at data/silver/features.db.
+2025-08-24 11:27:12,028 - INFO - transform - Transformation and storage complete.

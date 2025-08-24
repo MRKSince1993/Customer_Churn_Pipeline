@@ -1,0 +1,11 @@
+Data Quality Validation Report - 2025-08-23 22:55:14
+==================================================
+  column    failure_case index   schema_context                check check_number
+0   None          gender  None  DataFrameSchema  column_in_dataframe         None
+1   None   SeniorCitizen  None  DataFrameSchema  column_in_dataframe         None
+2   None         Partner  None  DataFrameSchema  column_in_dataframe         None
+3   None      Dependents  None  DataFrameSchema  column_in_dataframe         None
+4   None          tenure  None  DataFrameSchema  column_in_dataframe         None
+5   None  MonthlyCharges  None  DataFrameSchema  column_in_dataframe         None
+6   None    TotalCharges  None  DataFrameSchema  column_in_dataframe         None
+7   None        Contract  None  DataFrameSchema  column_in_dataframe         None
