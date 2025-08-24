@@ -1,0 +1,11 @@
+name: churn-pipeline
+prefect-version: 3.0.0
+
+deployments:
+  - name: daily-churn-pipeline
+    entrypoint: C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\dags\churn_pipeline_dag.py:churn_pipeline 
+    work_pool:
+      name: default-agent-pool
+    schedule:
+      cron: "0 9 * * *"
+      timezone: "Asia/Kolkata"

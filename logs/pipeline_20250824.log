@@ -237,3 +237,878 @@ ValueError: Wrong number of dimensions. values.ndim > ndim [2 > 1]
 2025-08-24 13:30:05,018 - INFO - transform - Engineering new features.
 2025-08-24 13:30:05,092 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
 2025-08-24 13:30:05,213 - INFO - transform - Transformation and storage complete.
+2025-08-24 14:45:13,767 - INFO - train - Starting model training process.
+2025-08-24 14:46:10,636 - INFO - train - Starting model training process.
+2025-08-24 14:46:11,174 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:44,798 - INFO - train - Starting model training process.
+2025-08-24 14:47:45,211 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,238 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,240 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,241 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,243 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,244 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,245 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,246 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,248 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,249 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,250 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,253 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,255 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,257 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,260 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,261 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,262 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,263 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,266 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,268 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,269 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,271 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,273 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,274 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,276 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,278 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,279 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,281 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:47:45,283 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:48:09,473 - INFO - train - Starting model training process.
+2025-08-24 14:48:09,810 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,275 - INFO - train - Starting model training process.
+2025-08-24 14:53:11,743 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,779 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,781 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,782 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,784 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,785 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,786 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,790 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,793 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,794 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,796 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,799 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,800 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,802 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,803 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,806 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,809 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,811 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,813 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,815 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,817 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,818 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,820 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,822 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,825 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,828 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,829 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,832 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:53:11,834 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,276 - INFO - train - Starting model training process.
+2025-08-24 14:54:35,654 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,666 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,668 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,671 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,674 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,676 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,677 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,680 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,682 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,683 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,686 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,689 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,692 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,695 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,697 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,699 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,700 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,704 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,705 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,707 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,709 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,712 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,714 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,716 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,717 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,721 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,724 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,727 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:54:35,729 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,538 - INFO - train - Starting model training process.
+2025-08-24 14:55:31,878 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,894 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,897 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,898 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,901 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,906 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,909 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,912 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,914 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,916 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,918 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,921 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,923 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,925 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,926 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,927 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,929 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,932 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,935 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,937 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,939 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,941 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,943 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,945 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,946 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,947 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,951 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,954 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:31,963 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:55:32,142 - INFO - train - Preparing data for modeling.
+2025-08-24 14:56:01,222 - INFO - train - Starting model training process.
+2025-08-24 14:56:01,599 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,617 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,618 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,620 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,622 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,626 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,628 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,630 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,633 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,635 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,637 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,639 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,649 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,655 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,658 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,664 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,669 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,676 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,679 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,688 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,696 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,704 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,706 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,709 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,713 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,717 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,721 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,724 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,734 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:56:01,927 - INFO - train - Preparing data for modeling.
+2025-08-24 14:58:01,139 - INFO - train - Starting model training process.
+2025-08-24 14:58:01,487 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,500 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,502 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,504 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,506 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,508 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,512 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,514 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,516 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,518 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,520 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,522 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,524 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,526 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,530 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,533 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,535 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,537 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,538 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,539 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,542 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,544 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,546 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,548 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,549 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,551 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,553 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,554 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,562 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:58:01,681 - INFO - train - Preparing data for modeling.
+2025-08-24 14:59:56,343 - INFO - train - Starting model training process.
+2025-08-24 14:59:56,702 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,715 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,717 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,720 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,722 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,726 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,728 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,730 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,732 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,734 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,735 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,737 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,739 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,741 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,744 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,746 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,747 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,748 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,749 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,751 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,752 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,755 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,757 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,759 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,761 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,762 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,764 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,765 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,772 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 14:59:56,895 - INFO - train - Preparing data for modeling.
+2025-08-24 15:02:11,411 - INFO - train - Starting model training process.
+2025-08-24 15:02:11,831 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,845 - INFO - train - entity_df columns: ['customerID', 'event_timestamp', 'Churn_Yes']
+2025-08-24 15:02:11,846 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,848 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,849 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,852 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,855 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,856 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,858 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,860 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,862 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,865 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,867 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,869 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,872 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,874 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,876 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,878 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,881 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,884 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,886 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,887 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,889 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,891 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,893 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,897 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,900 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,902 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,904 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:11,911 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:02:12,051 - INFO - train - training_data columns BEFORE processing: ['customerID', 'event_timestamp', 'Churn_Yes', 'gender', 'tenure', 'PhoneService', 'PaperlessBilling', 'MonthlyCharges', 'TotalCharges', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago', 'num_optional_services', 'monthly_charge_per_tenure', 'SeniorCitizen_Yes', 'Partner_Yes', 'Dependents_Yes', 'MultipleLines_No phone service', 'MultipleLines_Yes', 'InternetService_Fiber optic', 'InternetService_No', 'Contract_One year', 'Contract_Two year', 'PaymentMethod_Credit card (automatic)', 'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check', 'Churn_Yes__', 'tenure_group_Loyal', 'tenure_group_New', 'tenure_group_Unknown']
+2025-08-24 15:02:12,051 - INFO - train - Preparing data for modeling.
+2025-08-24 15:02:12,052 - INFO - train - training_data columns AFTER processing: ['customerID', 'Churn', 'gender', 'tenure', 'PhoneService', 'PaperlessBilling', 'MonthlyCharges', 'TotalCharges', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago', 'num_optional_services', 'monthly_charge_per_tenure', 'SeniorCitizen_Yes', 'Partner_Yes', 'Dependents_Yes', 'MultipleLines_No phone service', 'MultipleLines_Yes', 'InternetService_Fiber optic', 'InternetService_No', 'Contract_One year', 'Contract_Two year', 'PaymentMethod_Credit card (automatic)', 'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check', 'Churn_Yes__', 'tenure_group_Loyal', 'tenure_group_New', 'tenure_group_Unknown']
+2025-08-24 15:03:51,583 - INFO - train - Starting model training process.
+2025-08-24 15:03:51,981 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:03:52,001 - INFO - train - Entity DF shape: (7043, 3)
+2025-08-24 15:03:52,007 - INFO - train - Entity DF sample:
+   customerID                  event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 13:30:05.089364+00:00        0.0
+1  5575-GNVDE 2025-08-24 13:30:05.089364+00:00        0.0
+2  3668-QPYBK 2025-08-24 13:30:05.089364+00:00        1.0
+3  7795-CFOCW 2025-08-24 13:30:05.089364+00:00        0.0
+4  9237-HQITU 2025-08-24 13:30:05.089364+00:00        1.0
+2025-08-24 15:03:52,008 - INFO - registry - Registry cache expired, so refreshing
+2025-08-24 15:06:27,983 - INFO - train - Entity DF sample:
+   customerID                  event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 13:30:05.089364+00:00        0.0
+1  5575-GNVDE 2025-08-24 13:30:05.089364+00:00        0.0
+2  3668-QPYBK 2025-08-24 13:30:05.089364+00:00        1.0
+3  7795-CFOCW 2025-08-24 13:30:05.089364+00:00        0.0
+4  9237-HQITU 2025-08-24 13:30:05.089364+00:00        1.0
+2025-08-24 15:06:42,360 - INFO - train - Entity DF sample:
+   customerID                  event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 13:30:05.089364+00:00        0.0
+1  5575-GNVDE 2025-08-24 13:30:05.089364+00:00        0.0
+2  3668-QPYBK 2025-08-24 13:30:05.089364+00:00        1.0
+3  7795-CFOCW 2025-08-24 13:30:05.089364+00:00        0.0
+4  9237-HQITU 2025-08-24 13:30:05.089364+00:00        1.0
+2025-08-24 15:07:09,028 - INFO - train - Entity DF sample:
+   customerID                  event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 13:30:05.089364+00:00        0.0
+1  5575-GNVDE 2025-08-24 13:30:05.089364+00:00        0.0
+2  3668-QPYBK 2025-08-24 13:30:05.089364+00:00        1.0
+3  7795-CFOCW 2025-08-24 13:30:05.089364+00:00        0.0
+4  9237-HQITU 2025-08-24 13:30:05.089364+00:00        1.0
+2025-08-24 15:07:09,228 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 15:08:52,157 - INFO - train - Entity DF sample:
+   customerID                  event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 13:30:05.089364+00:00        0.0
+1  5575-GNVDE 2025-08-24 13:30:05.089364+00:00        0.0
+2  3668-QPYBK 2025-08-24 13:30:05.089364+00:00        1.0
+3  7795-CFOCW 2025-08-24 13:30:05.089364+00:00        0.0
+4  9237-HQITU 2025-08-24 13:30:05.089364+00:00        1.0
+2025-08-24 15:08:52,379 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 15:09:23,857 - INFO - train - Entity DF sample:
+   customerID                  event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 13:30:05.089364+00:00        0.0
+1  5575-GNVDE 2025-08-24 13:30:05.089364+00:00        0.0
+2  3668-QPYBK 2025-08-24 13:30:05.089364+00:00        1.0
+3  7795-CFOCW 2025-08-24 13:30:05.089364+00:00        0.0
+4  9237-HQITU 2025-08-24 13:30:05.089364+00:00        1.0
+2025-08-24 15:09:24,017 - INFO - train - DataFrame shape immediately after Feast call: (0, 30)
+2025-08-24 15:09:24,022 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 15:13:27,287 - INFO - train - Starting model training process.
+2025-08-24 15:13:27,643 - INFO - train - Entity DF shape: (7043, 3)
+2025-08-24 15:13:27,646 - INFO - train - Entity DF sample:
+   customerID                  event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 09:43:27.641989+00:00        0.0
+1  5575-GNVDE 2025-08-24 09:43:27.641989+00:00        0.0
+2  3668-QPYBK 2025-08-24 09:43:27.641989+00:00        1.0
+3  7795-CFOCW 2025-08-24 09:43:27.641989+00:00        0.0
+4  9237-HQITU 2025-08-24 09:43:27.641989+00:00        1.0
+2025-08-24 15:13:27,802 - INFO - train - DataFrame shape immediately after Feast call: (0, 30)
+2025-08-24 15:13:27,804 - INFO - train - Training data shape after merge: (0, 31)
+2025-08-24 15:13:27,805 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 15:13:27,805 - INFO - train - Preparing data for modeling.
+2025-08-24 15:15:58,606 - INFO - train - Starting model training process.
+2025-08-24 15:15:58,949 - INFO - train - Entity DF shape: (7043, 3)
+2025-08-24 15:15:58,952 - INFO - train - Entity DF sample:
+   customerID                  event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 09:45:58.949169+00:00        0.0
+1  5575-GNVDE 2025-08-24 09:45:58.949169+00:00        0.0
+2  3668-QPYBK 2025-08-24 09:45:58.949169+00:00        1.0
+3  7795-CFOCW 2025-08-24 09:45:58.949169+00:00        0.0
+4  9237-HQITU 2025-08-24 09:45:58.949169+00:00        1.0
+2025-08-24 15:15:59,123 - INFO - train - DataFrame shape immediately after Feast call: (0, 30)
+2025-08-24 15:15:59,125 - INFO - train - Training data shape after merge: (0, 31)
+2025-08-24 15:15:59,126 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 15:15:59,127 - INFO - train - Preparing data for modeling.
+2025-08-24 15:16:35,572 - INFO - train - Starting model training process.
+2025-08-24 15:16:35,951 - INFO - train - Entity DF shape: (7043, 3)
+2025-08-24 15:16:35,953 - INFO - train - Entity DF sample:
+   customerID                  event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 09:46:35.950116+00:00        0.0
+1  5575-GNVDE 2025-08-24 09:46:35.950116+00:00        0.0
+2  3668-QPYBK 2025-08-24 09:46:35.950116+00:00        1.0
+3  7795-CFOCW 2025-08-24 09:46:35.950116+00:00        0.0
+4  9237-HQITU 2025-08-24 09:46:35.950116+00:00        1.0
+2025-08-24 15:16:36,131 - INFO - train - DataFrame shape immediately after Feast call: (0, 30)
+2025-08-24 15:16:36,134 - INFO - train - Training data shape after merge: (0, 31)
+2025-08-24 15:16:36,134 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 15:16:36,135 - INFO - train - Preparing data for modeling.
+2025-08-24 16:25:07,928 - INFO - train - Starting model training process.
+2025-08-24 16:25:08,481 - INFO - train - Entity DF shape: (7043, 3)
+2025-08-24 16:25:08,487 - INFO - train - Entity DF sample:
+   customerID            event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 13:30:05.089364        0.0
+1  5575-GNVDE 2025-08-24 13:30:05.089364        0.0
+2  3668-QPYBK 2025-08-24 13:30:05.089364        1.0
+3  7795-CFOCW 2025-08-24 13:30:05.089364        0.0
+4  9237-HQITU 2025-08-24 13:30:05.089364        1.0
+2025-08-24 16:25:08,754 - INFO - train - DataFrame shape immediately after Feast call: (0, 30)
+2025-08-24 16:25:08,756 - INFO - train - Training data shape after merge: (0, 31)
+2025-08-24 16:25:08,757 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 16:25:08,757 - INFO - train - Preparing data for modeling.
+2025-08-24 16:29:28,611 - INFO - train - Starting model training process.
+2025-08-24 16:29:29,021 - INFO - train - Entity DF shape: (7043, 3)
+2025-08-24 16:29:29,024 - INFO - train - Entity DF sample:
+   customerID            event_timestamp  Churn_Yes
+0  7590-VHVEG 2025-08-24 13:30:05.089364        0.0
+1  5575-GNVDE 2025-08-24 13:30:05.089364        0.0
+2  3668-QPYBK 2025-08-24 13:30:05.089364        1.0
+3  7795-CFOCW 2025-08-24 13:30:05.089364        0.0
+4  9237-HQITU 2025-08-24 13:30:05.089364        1.0
+2025-08-24 16:29:29,189 - INFO - train - DataFrame shape immediately after Feast call: (0, 30)
+2025-08-24 16:29:29,191 - INFO - train - Training data shape after merge: (0, 31)
+2025-08-24 16:29:29,191 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 16:29:29,192 - INFO - train - Preparing data for modeling.
+2025-08-24 16:30:42,898 - INFO - train - Starting model training process.
+2025-08-24 16:30:43,300 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 16:30:43,301 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[ns]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 16:30:43,303 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 13:30:05.089364 TO 2025-08-24 13:30:05.089364
+2025-08-24 16:30:43,303 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 16:30:43,462 - INFO - train - DataFrame shape immediately after Feast call: (0, 30)
+2025-08-24 16:30:43,464 - INFO - train - Training data shape after merge: (0, 31)
+2025-08-24 16:30:43,466 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 16:30:43,466 - INFO - train - Preparing data for modeling.
+2025-08-24 16:34:31,629 - INFO - train - Starting model training process.
+2025-08-24 16:34:31,990 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 16:34:31,991 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[ns]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 16:34:31,992 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 13:30:05.089364 TO 2025-08-24 13:30:05.089364
+2025-08-24 16:34:31,992 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 16:34:32,173 - INFO - train - DataFrame shape immediately after Feast call: (0, 30)
+2025-08-24 16:34:32,175 - INFO - train - Training data shape after merge: (0, 31)
+2025-08-24 16:34:32,177 - INFO - train - Training data sample:
+Empty DataFrame
+Columns: [customerID, event_timestamp, Churn_Yes_x, gender, tenure, PhoneService, PaperlessBilling, MonthlyCharges, TotalCharges, support_calls, satisfaction_score, last_interaction_days_ago, num_optional_services, monthly_charge_per_tenure, SeniorCitizen_Yes, Partner_Yes, Dependents_Yes, MultipleLines_No phone service, MultipleLines_Yes, InternetService_Fiber optic, InternetService_No, Contract_One year, Contract_Two year, PaymentMethod_Credit card (automatic), PaymentMethod_Electronic check, PaymentMethod_Mailed check, Churn_Yes__, tenure_group_Loyal, tenure_group_New, tenure_group_Unknown, Churn_Yes_y]
+Index: []
+2025-08-24 16:34:32,177 - INFO - train - Preparing data for modeling.
+2025-08-24 16:45:54,814 - INFO - train - Starting model training process.
+2025-08-24 16:45:55,195 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 16:45:55,196 - INFO - train - Entity DF data types:
+customerID         object
+event_timestamp    object
+Churn_Yes          object
+dtype: object
+2025-08-24 16:50:09,316 - INFO - train - Starting model training process.
+2025-08-24 16:50:09,718 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 16:50:09,719 - INFO - train - Entity DF data types:
+customerID         object
+event_timestamp    object
+Churn_Yes          object
+dtype: object
+2025-08-24 16:57:16,614 - INFO - train - Starting model training process.
+2025-08-24 16:57:16,992 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 16:57:16,994 - INFO - train - Entity DF data types:
+customerID         object
+event_timestamp    object
+Churn_Yes          object
+dtype: object
+2025-08-24 16:57:37,792 - INFO - train - Starting model training process.
+2025-08-24 16:57:38,143 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 16:57:38,144 - INFO - train - Entity DF data types:
+customerID         object
+event_timestamp    object
+Churn_Yes          object
+dtype: object
+2025-08-24 17:00:05,368 - INFO - train - Starting model training process.
+2025-08-24 17:00:05,786 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 17:00:05,787 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[ns]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 17:00:05,791 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 13:30:05.089364 TO 2025-08-24 13:30:05.089364
+2025-08-24 17:00:05,791 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 17:00:06,006 - INFO - train - DataFrame shape immediately after Feast call: (0, 30)
+2025-08-24 17:16:42,438 - INFO - train - Starting model training process.
+2025-08-24 17:16:42,921 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 17:16:42,922 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[us]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 17:16:42,924 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 17:16:42.919519 TO 2025-08-24 17:16:42.919519
+2025-08-24 17:16:42,925 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 17:16:43,160 - INFO - train - DataFrame shape immediately after Feast call: (7043, 30)
+2025-08-24 17:35:42,002 - INFO - train - Starting model training process.
+2025-08-24 17:35:42,379 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 17:35:42,380 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[us]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 17:35:42,381 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 17:35:42.378351 TO 2025-08-24 17:35:42.378351
+2025-08-24 17:35:42,381 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 17:35:42,571 - INFO - train - DataFrame shape immediately after Feast call: (7043, 30)
+2025-08-24 17:35:42,583 - INFO - train - Training data shape after merge: (7043, 31)
+2025-08-24 17:35:42,591 - INFO - train - Training data sample:
+   customerID                  event_timestamp  Churn_Yes_x    gender    tenure  PhoneService  PaperlessBilling  MonthlyCharges  TotalCharges  support_calls  satisfaction_score  last_interaction_days_ago  num_optional_services  monthly_charge_per_tenure  SeniorCitizen_Yes  Partner_Yes  Dependents_Yes  MultipleLines_No phone service  MultipleLines_Yes  InternetService_Fiber optic  InternetService_No  Contract_One year  Contract_Two year  PaymentMethod_Credit card (automatic)  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Churn_Yes__  tenure_group_Loyal  tenure_group_New  tenure_group_Unknown  Churn_Yes_y
+0  7590-VHVEG 2025-08-24 17:35:42.378351+00:00          0.0 -1.009559       NaN     -3.054010          0.829798       -1.160323     -0.992611      -0.471893           -0.041761                  -0.565612              -0.561776                        NaN                0.0          1.0             0.0                             1.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   1.0          0.0
+1  5956-YHHRX 2025-08-24 17:35:42.378351+00:00          0.0  0.990532 -0.611310      0.327438          0.829798        1.315755     -0.003478            NaN            2.229431                  -0.533988               1.061995                   0.175352                1.0          0.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   0.0          0.0
+2  5365-LLFYV 2025-08-24 17:35:42.378351+00:00          0.0 -1.009559 -1.416642      0.327438          0.829798       -0.628548     -0.959191       1.329882           -1.177357                  -0.302082              -1.103033                   2.244620                0.0          0.0             0.0                             0.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             0.0                         1.0          0.0                 0.0               1.0                   0.0          0.0
+3  5855-EIBDE 2025-08-24 17:35:42.378351+00:00          0.0 -1.009559  0.575494      0.327438         -1.205113        1.392197      1.277055            NaN           -0.041761                   0.477964               1.603253                  -0.337086                0.0          1.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                1.0                                    1.0                             0.0                         0.0          0.0                 1.0               0.0                   0.0          0.0
+4  8166-ZZTFS 2025-08-24 17:35:42.378351+00:00          1.0 -1.009559  1.296054      0.327438          0.829798        0.524739      1.317092       1.329882           -1.177357                  -0.365329               1.061995                  -0.519815                1.0          1.0             0.0                             0.0                1.0                          0.0                 0.0                0.0                1.0                                    0.0                             0.0                         0.0          1.0                 1.0               0.0                   0.0          1.0
+2025-08-24 17:35:42,592 - INFO - train - Preparing data for modeling.
+2025-08-24 17:35:42,603 - INFO - train - Train/Test split complete. X_train shape: (5634, 27), X_test shape: (1409, 27)
+2025-08-24 17:35:44,314 - INFO - train - Training model: LogisticRegression
+2025-08-24 17:39:18,856 - INFO - train - Starting model training process.
+2025-08-24 17:39:19,230 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 17:39:19,231 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[us]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 17:39:19,232 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 17:39:19.229216 TO 2025-08-24 17:39:19.229216
+2025-08-24 17:39:19,232 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 17:39:19,450 - INFO - train - DataFrame shape immediately after Feast call: (7043, 30)
+2025-08-24 17:39:19,460 - INFO - train - Training data shape after merge: (7043, 31)
+2025-08-24 17:39:19,468 - INFO - train - Training data sample:
+   customerID                  event_timestamp  Churn_Yes_x    gender    tenure  PhoneService  PaperlessBilling  MonthlyCharges  TotalCharges  support_calls  satisfaction_score  last_interaction_days_ago  num_optional_services  monthly_charge_per_tenure  SeniorCitizen_Yes  Partner_Yes  Dependents_Yes  MultipleLines_No phone service  MultipleLines_Yes  InternetService_Fiber optic  InternetService_No  Contract_One year  Contract_Two year  PaymentMethod_Credit card (automatic)  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Churn_Yes__  tenure_group_Loyal  tenure_group_New  tenure_group_Unknown  Churn_Yes_y
+0  7590-VHVEG 2025-08-24 17:39:19.229216+00:00          0.0 -1.009559       NaN     -3.054010          0.829798       -1.160323     -0.992611      -0.471893           -0.041761                  -0.565612              -0.561776                        NaN                0.0          1.0             0.0                             1.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   1.0          0.0
+1  5956-YHHRX 2025-08-24 17:39:19.229216+00:00          0.0  0.990532 -0.611310      0.327438          0.829798        1.315755     -0.003478            NaN            2.229431                  -0.533988               1.061995                   0.175352                1.0          0.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   0.0          0.0
+2  5365-LLFYV 2025-08-24 17:39:19.229216+00:00          0.0 -1.009559 -1.416642      0.327438          0.829798       -0.628548     -0.959191       1.329882           -1.177357                  -0.302082              -1.103033                   2.244620                0.0          0.0             0.0                             0.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             0.0                         1.0          0.0                 0.0               1.0                   0.0          0.0
+3  5855-EIBDE 2025-08-24 17:39:19.229216+00:00          0.0 -1.009559  0.575494      0.327438         -1.205113        1.392197      1.277055            NaN           -0.041761                   0.477964               1.603253                  -0.337086                0.0          1.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                1.0                                    1.0                             0.0                         0.0          0.0                 1.0               0.0                   0.0          0.0
+4  8166-ZZTFS 2025-08-24 17:39:19.229216+00:00          1.0 -1.009559  1.296054      0.327438          0.829798        0.524739      1.317092       1.329882           -1.177357                  -0.365329               1.061995                  -0.519815                1.0          1.0             0.0                             0.0                1.0                          0.0                 0.0                0.0                1.0                                    0.0                             0.0                         0.0          1.0                 1.0               0.0                   0.0          1.0
+2025-08-24 17:39:19,470 - INFO - train - Preparing data for modeling.
+2025-08-24 17:39:19,476 - INFO - train - Train/Test split complete. X_train shape: (5634, 27), X_test shape: (1409, 27)
+2025-08-24 17:39:20,880 - INFO - train - Training model: LogisticRegression
+2025-08-24 17:41:31,914 - INFO - train - Starting model training process.
+2025-08-24 17:41:32,253 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 17:41:32,253 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[us]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 17:41:32,254 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 17:41:32.252531 TO 2025-08-24 17:41:32.252531
+2025-08-24 17:41:32,255 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 17:41:32,551 - INFO - train - DataFrame shape immediately after Feast call: (7043, 30)
+2025-08-24 17:41:32,561 - INFO - train - Training data shape after merge: (7043, 31)
+2025-08-24 17:41:32,572 - INFO - train - Training data sample:
+   customerID                  event_timestamp  Churn_Yes_x    gender    tenure  PhoneService  PaperlessBilling  MonthlyCharges  TotalCharges  support_calls  satisfaction_score  last_interaction_days_ago  num_optional_services  monthly_charge_per_tenure  SeniorCitizen_Yes  Partner_Yes  Dependents_Yes  MultipleLines_No phone service  MultipleLines_Yes  InternetService_Fiber optic  InternetService_No  Contract_One year  Contract_Two year  PaymentMethod_Credit card (automatic)  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Churn_Yes__  tenure_group_Loyal  tenure_group_New  tenure_group_Unknown  Churn_Yes_y
+0  7590-VHVEG 2025-08-24 17:41:32.252531+00:00          0.0 -1.009559       NaN     -3.054010          0.829798       -1.160323     -0.992611      -0.471893           -0.041761                  -0.565612              -0.561776                        NaN                0.0          1.0             0.0                             1.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   1.0          0.0
+1  5956-YHHRX 2025-08-24 17:41:32.252531+00:00          0.0  0.990532 -0.611310      0.327438          0.829798        1.315755     -0.003478            NaN            2.229431                  -0.533988               1.061995                   0.175352                1.0          0.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   0.0          0.0
+2  5365-LLFYV 2025-08-24 17:41:32.252531+00:00          0.0 -1.009559 -1.416642      0.327438          0.829798       -0.628548     -0.959191       1.329882           -1.177357                  -0.302082              -1.103033                   2.244620                0.0          0.0             0.0                             0.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             0.0                         1.0          0.0                 0.0               1.0                   0.0          0.0
+3  5855-EIBDE 2025-08-24 17:41:32.252531+00:00          0.0 -1.009559  0.575494      0.327438         -1.205113        1.392197      1.277055            NaN           -0.041761                   0.477964               1.603253                  -0.337086                0.0          1.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                1.0                                    1.0                             0.0                         0.0          0.0                 1.0               0.0                   0.0          0.0
+4  8166-ZZTFS 2025-08-24 17:41:32.252531+00:00          1.0 -1.009559  1.296054      0.327438          0.829798        0.524739      1.317092       1.329882           -1.177357                  -0.365329               1.061995                  -0.519815                1.0          1.0             0.0                             0.0                1.0                          0.0                 0.0                0.0                1.0                                    0.0                             0.0                         0.0          1.0                 1.0               0.0                   0.0          1.0
+2025-08-24 17:41:32,573 - INFO - train - Preparing data for modeling.
+2025-08-24 17:41:32,580 - INFO - train - Imputing missing values...
+2025-08-24 17:41:32,586 - INFO - train - Train/Test split complete. X_train shape: (5634, 27), X_test shape: (1409, 27)
+2025-08-24 17:41:33,725 - INFO - train - Training model: LogisticRegression
+2025-08-24 17:41:40,673 - INFO - train - Model: LogisticRegression, F1-Score: 1.0000
+2025-08-24 17:41:40,707 - INFO - train - Training model: RandomForest
+2025-08-24 17:41:44,470 - INFO - train - Model: RandomForest, F1-Score: 1.0000
+2025-08-24 17:41:44,520 - INFO - train - Training model: GradientBoosting
+2025-08-24 17:41:48,408 - INFO - train - Model: GradientBoosting, F1-Score: 1.0000
+2025-08-24 17:41:48,412 - INFO - train - Best model: LogisticRegression with F1-Score: 1.0000
+2025-08-24 17:41:48,413 - INFO - train - Best model saved to models/best_churn_model.pkl
+2025-08-24 17:42:11,131 - INFO - train - Starting model training process.
+2025-08-24 17:42:11,486 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 17:42:11,487 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[us]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 17:42:11,488 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 17:42:11.486260 TO 2025-08-24 17:42:11.486260
+2025-08-24 17:42:11,488 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 17:42:11,683 - INFO - train - DataFrame shape immediately after Feast call: (7043, 30)
+2025-08-24 17:42:11,694 - INFO - train - Training data shape after merge: (7043, 31)
+2025-08-24 17:42:11,701 - INFO - train - Training data sample:
+   customerID                  event_timestamp  Churn_Yes_x    gender    tenure  PhoneService  PaperlessBilling  MonthlyCharges  TotalCharges  support_calls  satisfaction_score  last_interaction_days_ago  num_optional_services  monthly_charge_per_tenure  SeniorCitizen_Yes  Partner_Yes  Dependents_Yes  MultipleLines_No phone service  MultipleLines_Yes  InternetService_Fiber optic  InternetService_No  Contract_One year  Contract_Two year  PaymentMethod_Credit card (automatic)  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Churn_Yes__  tenure_group_Loyal  tenure_group_New  tenure_group_Unknown  Churn_Yes_y
+0  7590-VHVEG 2025-08-24 17:42:11.486260+00:00          0.0 -1.009559       NaN     -3.054010          0.829798       -1.160323     -0.992611      -0.471893           -0.041761                  -0.565612              -0.561776                        NaN                0.0          1.0             0.0                             1.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   1.0          0.0
+1  5956-YHHRX 2025-08-24 17:42:11.486260+00:00          0.0  0.990532 -0.611310      0.327438          0.829798        1.315755     -0.003478            NaN            2.229431                  -0.533988               1.061995                   0.175352                1.0          0.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   0.0          0.0
+2  5365-LLFYV 2025-08-24 17:42:11.486260+00:00          0.0 -1.009559 -1.416642      0.327438          0.829798       -0.628548     -0.959191       1.329882           -1.177357                  -0.302082              -1.103033                   2.244620                0.0          0.0             0.0                             0.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             0.0                         1.0          0.0                 0.0               1.0                   0.0          0.0
+3  5855-EIBDE 2025-08-24 17:42:11.486260+00:00          0.0 -1.009559  0.575494      0.327438         -1.205113        1.392197      1.277055            NaN           -0.041761                   0.477964               1.603253                  -0.337086                0.0          1.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                1.0                                    1.0                             0.0                         0.0          0.0                 1.0               0.0                   0.0          0.0
+4  8166-ZZTFS 2025-08-24 17:42:11.486260+00:00          1.0 -1.009559  1.296054      0.327438          0.829798        0.524739      1.317092       1.329882           -1.177357                  -0.365329               1.061995                  -0.519815                1.0          1.0             0.0                             0.0                1.0                          0.0                 0.0                0.0                1.0                                    0.0                             0.0                         0.0          1.0                 1.0               0.0                   0.0          1.0
+2025-08-24 17:42:11,702 - INFO - train - Preparing data for modeling.
+2025-08-24 17:42:11,709 - INFO - train - Imputing missing values...
+2025-08-24 17:42:11,717 - INFO - train - Train/Test split complete. X_train shape: (5634, 27), X_test shape: (1409, 27)
+2025-08-24 17:42:12,732 - INFO - train - Training model: LogisticRegression
+2025-08-24 17:42:17,095 - INFO - train - Model: LogisticRegression, F1-Score: 1.0000
+2025-08-24 17:42:17,127 - INFO - train - Training model: RandomForest
+2025-08-24 17:42:21,001 - INFO - train - Model: RandomForest, F1-Score: 1.0000
+2025-08-24 17:42:21,036 - INFO - train - Training model: GradientBoosting
+2025-08-24 17:42:25,021 - INFO - train - Model: GradientBoosting, F1-Score: 1.0000
+2025-08-24 17:42:25,027 - INFO - train - Best model: LogisticRegression with F1-Score: 1.0000
+2025-08-24 17:42:25,030 - INFO - train - Best model saved to models/best_churn_model.pkl
+2025-08-24 18:16:07,240 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 18:16:07,262 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 18:16:07,293 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 18:16:09,181 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 18:20:40,501 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 18:20:40,540 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 18:20:40,577 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 18:20:43,288 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 19:58:53,736 - INFO - train - Starting model training process.
+2025-08-24 19:58:54,432 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 19:58:54,433 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[us]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 19:58:54,436 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 19:58:54.428657 TO 2025-08-24 19:58:54.428657
+2025-08-24 19:58:54,436 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 19:58:54,846 - INFO - train - DataFrame shape immediately after Feast call: (7043, 30)
+2025-08-24 19:58:54,868 - INFO - train - Training data shape after merge: (7043, 31)
+2025-08-24 19:58:54,876 - INFO - train - Training data sample:
+   customerID                  event_timestamp  Churn_Yes_x    gender    tenure  PhoneService  PaperlessBilling  MonthlyCharges  TotalCharges  support_calls  satisfaction_score  last_interaction_days_ago  num_optional_services  monthly_charge_per_tenure  SeniorCitizen_Yes  Partner_Yes  Dependents_Yes  MultipleLines_No phone service  MultipleLines_Yes  InternetService_Fiber optic  InternetService_No  Contract_One year  Contract_Two year  PaymentMethod_Credit card (automatic)  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Churn_Yes__  tenure_group_Loyal  tenure_group_New  tenure_group_Unknown  Churn_Yes_y
+0  7590-VHVEG 2025-08-24 19:58:54.428657+00:00          0.0 -1.009559       NaN     -3.054010          0.829798       -1.160323     -0.992611      -0.471893           -0.041761                  -0.565612              -0.561776                        NaN                0.0          1.0             0.0                             1.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   1.0          0.0
+1  5956-YHHRX 2025-08-24 19:58:54.428657+00:00          0.0  0.990532 -0.611310      0.327438          0.829798        1.315755     -0.003478            NaN            2.229431                  -0.533988               1.061995                   0.175352                1.0          0.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   0.0          0.0
+2  5365-LLFYV 2025-08-24 19:58:54.428657+00:00          0.0 -1.009559 -1.416642      0.327438          0.829798       -0.628548     -0.959191       1.329882           -1.177357                  -0.302082              -1.103033                   2.244620                0.0          0.0             0.0                             0.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             0.0                         1.0          0.0                 0.0               1.0                   0.0          0.0
+3  5855-EIBDE 2025-08-24 19:58:54.428657+00:00          0.0 -1.009559  0.575494      0.327438         -1.205113        1.392197      1.277055            NaN           -0.041761                   0.477964               1.603253                  -0.337086                0.0          1.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                1.0                                    1.0                             0.0                         0.0          0.0                 1.0               0.0                   0.0          0.0
+4  8166-ZZTFS 2025-08-24 19:58:54.428657+00:00          1.0 -1.009559  1.296054      0.327438          0.829798        0.524739      1.317092       1.329882           -1.177357                  -0.365329               1.061995                  -0.519815                1.0          1.0             0.0                             0.0                1.0                          0.0                 0.0                0.0                1.0                                    0.0                             0.0                         0.0          1.0                 1.0               0.0                   0.0          1.0
+2025-08-24 19:58:54,877 - INFO - train - Preparing data for modeling.
+2025-08-24 19:58:54,889 - INFO - train - Imputing missing values...
+2025-08-24 19:58:54,898 - INFO - train - Train/Test split complete. X_train shape: (5634, 27), X_test shape: (1409, 27)
+2025-08-24 19:58:56,511 - INFO - train - Training model: LogisticRegression
+2025-08-24 19:59:06,110 - INFO - train - Model: LogisticRegression, F1-Score: 1.0000
+2025-08-24 19:59:06,162 - INFO - train - Training model: RandomForest
+2025-08-24 19:59:12,274 - INFO - train - Model: RandomForest, F1-Score: 1.0000
+2025-08-24 19:59:12,320 - INFO - train - Training model: GradientBoosting
+2025-08-24 19:59:17,257 - INFO - train - Model: GradientBoosting, F1-Score: 1.0000
+2025-08-24 19:59:17,263 - INFO - train - Best model: LogisticRegression with F1-Score: 1.0000
+2025-08-24 19:59:17,265 - INFO - train - Best model saved to models/best_churn_model.pkl
+2025-08-24 20:03:30,014 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:03:30,044 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:03:30,093 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:03:33,042 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:03:33,882 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:03:33,887 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:05:01,779 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:05:01,805 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:05:01,852 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:05:04,680 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:05:05,456 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:05:05,460 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:09:25,661 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:09:25,705 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:09:25,747 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:09:28,662 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:09:29,496 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:09:29,499 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:15:56,784 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:15:56,811 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:15:56,860 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:15:59,246 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:16:00,179 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:16:00,183 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:16:02,007 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:16:02,008 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:16:02,017 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:16:02,077 - ERROR - validate_data - Data validation failed!
+2025-08-24 20:16:02,088 - ERROR - validate_data - Validation failure report saved to validation\data_quality_report.txt
+2025-08-24 20:17:03,675 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:17:03,676 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:17:03,679 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:17:03,706 - ERROR - validate_data - Data validation failed!
+2025-08-24 20:17:03,711 - ERROR - validate_data - Validation failure report saved to validation\data_quality_report.txt
+2025-08-24 20:18:05,224 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:18:05,225 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:18:05,232 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:18:05,256 - ERROR - validate_data - Data validation failed!
+2025-08-24 20:18:05,262 - ERROR - validate_data - Validation failure report saved to validation\data_quality_report.txt
+2025-08-24 20:19:52,916 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:19:52,940 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:19:52,984 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:19:55,548 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:19:56,300 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:19:56,304 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:19:57,945 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:19:57,945 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:19:57,950 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:19:57,977 - ERROR - validate_data - Data validation failed!
+2025-08-24 20:19:57,983 - ERROR - validate_data - Validation failure report saved to validation\data_quality_report.txt
+2025-08-24 20:20:57,220 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:20:57,220 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:20:57,226 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:20:57,247 - ERROR - validate_data - Data validation failed!
+2025-08-24 20:20:57,253 - ERROR - validate_data - Validation failure report saved to validation\data_quality_report.txt
+2025-08-24 20:27:52,872 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:27:52,873 - ERROR - raw_storage_manager - Failed to store raw data: [Errno 13] Permission denied: 'data/bronze\\source=telco_csv\\year=2025\\month=08\\day=24\\telco_churn_20250823.csv'
+2025-08-24 20:28:04,419 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:28:04,422 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:29:39,316 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:29:39,338 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:29:39,374 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:29:41,920 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:29:42,713 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:29:42,719 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:29:44,416 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:29:44,418 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:29:44,445 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:29:44,505 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 20:32:43,218 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:32:43,247 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:32:43,292 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:32:46,464 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:32:47,367 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:32:47,372 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:32:49,525 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:32:49,526 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:32:49,556 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:32:49,626 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 20:35:21,236 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:35:21,263 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:35:21,304 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:35:24,090 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:35:24,991 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:35:24,998 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:35:26,837 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:35:26,838 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:35:26,871 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:35:26,940 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 20:35:39,536 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 20:35:39,675 - INFO - transform - Loaded data with columns: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago']
+2025-08-24 20:35:39,675 - INFO - transform - Engineering new features.
+2025-08-24 20:35:39,746 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 20:35:39,830 - INFO - transform - Transformation and storage complete.
+2025-08-24 20:42:55,933 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:42:55,965 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:42:56,019 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:42:59,157 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:43:00,091 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:43:00,096 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:43:02,017 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:43:02,018 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:43:02,045 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:43:02,123 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 20:43:17,619 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 20:43:17,751 - INFO - transform - Loaded data with columns: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago']
+2025-08-24 20:43:17,752 - INFO - transform - Engineering new features.
+2025-08-24 20:43:17,816 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 20:43:17,882 - INFO - transform - Transformation and storage complete.
+2025-08-24 20:47:17,661 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:47:17,688 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:47:17,732 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:47:20,318 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:47:21,115 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:47:21,120 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:47:22,812 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:47:22,813 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:47:22,839 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:47:22,903 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 20:47:37,149 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 20:47:37,244 - INFO - transform - Loaded data with columns: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago']
+2025-08-24 20:47:37,244 - INFO - transform - Engineering new features.
+2025-08-24 20:47:37,312 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 20:47:37,380 - INFO - transform - Transformation and storage complete.
+2025-08-24 20:48:44,021 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:48:44,044 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 20:48:44,084 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 20:48:46,875 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 20:48:47,728 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 20:48:47,733 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:48:49,527 - INFO - validate_data - Starting raw data validation.
+2025-08-24 20:48:49,529 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 20:48:49,557 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 20:48:49,609 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 20:49:03,926 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 20:49:03,997 - INFO - transform - Loaded data with columns: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago']
+2025-08-24 20:49:03,998 - INFO - transform - Engineering new features.
+2025-08-24 20:49:04,061 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 20:49:04,140 - INFO - transform - Transformation and storage complete.
+2025-08-24 20:49:37,882 - INFO - train - Starting model training process.
+2025-08-24 20:49:38,371 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 20:49:38,372 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[us]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 20:49:38,374 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 20:49:38.370217 TO 2025-08-24 20:49:38.370217
+2025-08-24 20:49:38,374 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 20:49:38,742 - INFO - train - DataFrame shape immediately after Feast call: (7043, 30)
+2025-08-24 20:49:38,757 - INFO - train - Training data shape after merge: (7043, 31)
+2025-08-24 20:49:38,767 - INFO - train - Training data sample:
+   customerID                  event_timestamp  Churn_Yes_x    gender    tenure  PhoneService  PaperlessBilling  MonthlyCharges  TotalCharges  support_calls  satisfaction_score  last_interaction_days_ago  num_optional_services  monthly_charge_per_tenure  SeniorCitizen_Yes  Partner_Yes  Dependents_Yes  MultipleLines_No phone service  MultipleLines_Yes  InternetService_Fiber optic  InternetService_No  Contract_One year  Contract_Two year  PaymentMethod_Credit card (automatic)  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Churn_Yes__  tenure_group_Loyal  tenure_group_New  tenure_group_Unknown  Churn_Yes_y
+0  7590-VHVEG 2025-08-24 20:49:38.370217+00:00          0.0 -1.009559       NaN     -3.054010          0.829798       -1.160323     -0.992611      -0.471893           -0.041761                  -0.565612              -0.561776                        NaN                0.0          1.0             0.0                             1.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   1.0          0.0
+1  5956-YHHRX 2025-08-24 20:49:38.370217+00:00          0.0  0.990532 -0.611310      0.327438          0.829798        1.315755     -0.003478            NaN            2.229431                  -0.533988               1.061995                   0.175352                1.0          0.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   0.0          0.0
+2  5365-LLFYV 2025-08-24 20:49:38.370217+00:00          0.0 -1.009559 -1.416642      0.327438          0.829798       -0.628548     -0.959191       1.329882           -1.177357                  -0.302082              -1.103033                   2.244620                0.0          0.0             0.0                             0.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             0.0                         1.0          0.0                 0.0               1.0                   0.0          0.0
+3  5855-EIBDE 2025-08-24 20:49:38.370217+00:00          0.0 -1.009559  0.575494      0.327438         -1.205113        1.392197      1.277055            NaN           -0.041761                   0.477964               1.603253                  -0.337086                0.0          1.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                1.0                                    1.0                             0.0                         0.0          0.0                 1.0               0.0                   0.0          0.0
+4  8166-ZZTFS 2025-08-24 20:49:38.370217+00:00          1.0 -1.009559  1.296054      0.327438          0.829798        0.524739      1.317092       1.329882           -1.177357                  -0.365329               1.061995                  -0.519815                1.0          1.0             0.0                             0.0                1.0                          0.0                 0.0                0.0                1.0                                    0.0                             0.0                         0.0          1.0                 1.0               0.0                   0.0          1.0
+2025-08-24 20:49:38,769 - INFO - train - Preparing data for modeling.
+2025-08-24 20:49:38,780 - INFO - train - Imputing missing values...
+2025-08-24 20:49:38,789 - INFO - train - Train/Test split complete. X_train shape: (5634, 27), X_test shape: (1409, 27)
+2025-08-24 20:49:39,893 - INFO - train - Training model: LogisticRegression
+2025-08-24 20:49:49,154 - INFO - train - Model: LogisticRegression, F1-Score: 1.0000
+2025-08-24 20:49:49,194 - INFO - train - Training model: RandomForest
+2025-08-24 20:49:53,996 - INFO - train - Model: RandomForest, F1-Score: 1.0000
+2025-08-24 20:49:54,040 - INFO - train - Training model: GradientBoosting
+2025-08-24 20:49:58,684 - INFO - train - Model: GradientBoosting, F1-Score: 1.0000
+2025-08-24 20:49:58,688 - INFO - train - Best model: LogisticRegression with F1-Score: 1.0000
+2025-08-24 20:49:58,689 - INFO - train - Best model saved to models/best_churn_model.pkl
+2025-08-24 23:18:21,456 - INFO - train - Starting model training process.
+2025-08-24 23:18:22,095 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 23:18:22,096 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[us]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 23:18:22,098 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 23:18:22.092015 TO 2025-08-24 23:18:22.092015
+2025-08-24 23:18:22,099 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 23:18:22,507 - INFO - train - DataFrame shape immediately after Feast call: (7043, 30)
+2025-08-24 23:18:22,517 - INFO - train - Training data shape after merge: (7043, 31)
+2025-08-24 23:18:22,525 - INFO - train - Training data sample:
+   customerID                  event_timestamp  Churn_Yes_x    gender    tenure  PhoneService  PaperlessBilling  MonthlyCharges  TotalCharges  support_calls  satisfaction_score  last_interaction_days_ago  num_optional_services  monthly_charge_per_tenure  SeniorCitizen_Yes  Partner_Yes  Dependents_Yes  MultipleLines_No phone service  MultipleLines_Yes  InternetService_Fiber optic  InternetService_No  Contract_One year  Contract_Two year  PaymentMethod_Credit card (automatic)  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Churn_Yes__  tenure_group_Loyal  tenure_group_New  tenure_group_Unknown  Churn_Yes_y
+0  7590-VHVEG 2025-08-24 23:18:22.092015+00:00          0.0 -1.009559       NaN     -3.054010          0.829798       -1.160323     -0.992611      -0.471893           -0.041761                  -0.565612              -0.561776                        NaN                0.0          1.0             0.0                             1.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   1.0          0.0
+1  5956-YHHRX 2025-08-24 23:18:22.092015+00:00          0.0  0.990532 -0.611310      0.327438          0.829798        1.315755     -0.003478            NaN            2.229431                  -0.533988               1.061995                   0.175352                1.0          0.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   0.0          0.0
+2  5365-LLFYV 2025-08-24 23:18:22.092015+00:00          0.0 -1.009559 -1.416642      0.327438          0.829798       -0.628548     -0.959191       1.329882           -1.177357                  -0.302082              -1.103033                   2.244620                0.0          0.0             0.0                             0.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             0.0                         1.0          0.0                 0.0               1.0                   0.0          0.0
+3  5855-EIBDE 2025-08-24 23:18:22.092015+00:00          0.0 -1.009559  0.575494      0.327438         -1.205113        1.392197      1.277055            NaN           -0.041761                   0.477964               1.603253                  -0.337086                0.0          1.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                1.0                                    1.0                             0.0                         0.0          0.0                 1.0               0.0                   0.0          0.0
+4  8166-ZZTFS 2025-08-24 23:18:22.092015+00:00          1.0 -1.009559  1.296054      0.327438          0.829798        0.524739      1.317092       1.329882           -1.177357                  -0.365329               1.061995                  -0.519815                1.0          1.0             0.0                             0.0                1.0                          0.0                 0.0                0.0                1.0                                    0.0                             0.0                         0.0          1.0                 1.0               0.0                   0.0          1.0
+2025-08-24 23:18:22,527 - INFO - train - Preparing data for modeling.
+2025-08-24 23:18:22,536 - INFO - train - Imputing missing values...
+2025-08-24 23:18:22,546 - INFO - train - Train/Test split complete. X_train shape: (5634, 27), X_test shape: (1409, 27)
+2025-08-24 23:18:23,889 - INFO - train - Training model: LogisticRegression
+2025-08-24 23:18:33,987 - INFO - train - Model: LogisticRegression, F1-Score: 1.0000
+2025-08-24 23:18:34,039 - INFO - train - Training model: RandomForest
+2025-08-24 23:18:39,730 - INFO - train - Model: RandomForest, F1-Score: 1.0000
+2025-08-24 23:18:39,787 - INFO - train - Training model: GradientBoosting
+2025-08-24 23:18:45,720 - INFO - train - Model: GradientBoosting, F1-Score: 1.0000
+2025-08-24 23:18:45,727 - INFO - train - Best model: LogisticRegression with F1-Score: 1.0000
+2025-08-24 23:18:45,729 - INFO - train - Best model saved to models/best_churn_model.pkl
+2025-08-24 23:37:59,463 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 23:37:59,513 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 23:37:59,588 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 23:38:04,143 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 23:38:05,259 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 23:38:05,266 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 23:38:08,217 - INFO - validate_data - Starting raw data validation.
+2025-08-24 23:38:08,217 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 23:38:08,252 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 23:38:08,357 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 23:38:26,734 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 23:38:26,876 - INFO - transform - Loaded data with columns: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago']
+2025-08-24 23:38:26,877 - INFO - transform - Engineering new features.
+2025-08-24 23:38:27,164 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 23:38:27,308 - INFO - transform - Transformation and storage complete.
+2025-08-24 23:40:04,092 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 23:40:04,124 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 23:40:04,177 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 23:40:08,308 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 23:40:09,448 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 23:40:09,455 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 23:40:12,590 - INFO - validate_data - Starting raw data validation.
+2025-08-24 23:40:12,591 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 23:40:12,628 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 23:40:12,866 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 23:40:41,634 - INFO - ingest_csv - Starting ingestion from CSV file: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 23:40:41,668 - INFO - ingest_csv - Successfully read 7043 rows from C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Src_Files\WA_Fn-UseC_-Telco-Customer-Churn.csv
+2025-08-24 23:40:41,725 - INFO - ingest_csv - Successfully ingested data and saved to C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw\telco_churn_20250824.csv
+2025-08-24 23:40:45,550 - ERROR - ingest_hf_data - Customer ID source file not found: C:\Users\mrakkuma\OneDrive - Magna\BITS\Sem2\DMML\Assignment\Assignment\customer_churn_pipeline\data\raw/Telco-Customer-Churn.csv
+2025-08-24 23:40:46,774 - INFO - raw_storage_manager - Storing raw data for source: telco_csv
+2025-08-24 23:40:46,778 - INFO - raw_storage_manager - Successfully stored file at: data/bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 23:40:49,717 - INFO - validate_data - Starting raw data validation.
+2025-08-24 23:40:49,718 - INFO - validate_data - Found latest CSV for validation: data\bronze\source=telco_csv\year=2025\month=08\day=24\telco_churn_20250823.csv
+2025-08-24 23:40:49,759 - INFO - validate_data - Applying validation schema to the dataframe.
+2025-08-24 23:40:49,846 - INFO - validate_data - Data validation successful. All checks passed.
+2025-08-24 23:41:11,864 - INFO - transform - Starting data transformation from C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet.
+2025-08-24 23:41:12,009 - INFO - transform - Loaded data with columns: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'support_calls', 'satisfaction_score', 'last_interaction_days_ago']
+2025-08-24 23:41:12,009 - INFO - transform - Engineering new features.
+2025-08-24 23:41:12,133 - INFO - transform - Storing transformed data to SQLite DB at C:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\features.db.
+2025-08-24 23:41:12,240 - INFO - transform - Transformation and storage complete.
+2025-08-24 23:41:59,079 - INFO - train - Starting model training process.
+2025-08-24 23:41:59,747 - INFO - train - --- Running Pre-Feast Diagnostics ---
+2025-08-24 23:41:59,749 - INFO - train - Entity DF data types:
+customerID                 object
+event_timestamp    datetime64[us]
+Churn_Yes                 float64
+dtype: object
+2025-08-24 23:41:59,750 - INFO - train - Entity DF timestamp range: FROM 2025-08-24 23:41:59.747311 TO 2025-08-24 23:41:59.747311
+2025-08-24 23:41:59,751 - INFO - train - --- Diagnostics Complete ---
+2025-08-24 23:42:00,241 - INFO - train - DataFrame shape immediately after Feast call: (7043, 30)
+2025-08-24 23:42:00,261 - INFO - train - Training data shape after merge: (7043, 31)
+2025-08-24 23:42:00,269 - INFO - train - Training data sample:
+   customerID                  event_timestamp  Churn_Yes_x    gender    tenure  PhoneService  PaperlessBilling  MonthlyCharges  TotalCharges  support_calls  satisfaction_score  last_interaction_days_ago  num_optional_services  monthly_charge_per_tenure  SeniorCitizen_Yes  Partner_Yes  Dependents_Yes  MultipleLines_No phone service  MultipleLines_Yes  InternetService_Fiber optic  InternetService_No  Contract_One year  Contract_Two year  PaymentMethod_Credit card (automatic)  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Churn_Yes__  tenure_group_Loyal  tenure_group_New  tenure_group_Unknown  Churn_Yes_y
+0  7590-VHVEG 2025-08-24 23:41:59.747311+00:00          0.0 -1.009559       NaN     -3.054010          0.829798       -1.160323     -0.992611      -0.471893           -0.041761                  -0.565612              -0.561776                        NaN                0.0          1.0             0.0                             1.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   1.0          0.0
+1  5956-YHHRX 2025-08-24 23:41:59.747311+00:00          0.0  0.990532 -0.611310      0.327438          0.829798        1.315755     -0.003478            NaN            2.229431                  -0.533988               1.061995                   0.175352                1.0          0.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                0.0                                    0.0                             1.0                         0.0          0.0                 0.0               0.0                   0.0          0.0
+2  5365-LLFYV 2025-08-24 23:41:59.747311+00:00          0.0 -1.009559 -1.416642      0.327438          0.829798       -0.628548     -0.959191       1.329882           -1.177357                  -0.302082              -1.103033                   2.244620                0.0          0.0             0.0                             0.0                0.0                          0.0                 0.0                0.0                0.0                                    0.0                             0.0                         1.0          0.0                 0.0               1.0                   0.0          0.0
+3  5855-EIBDE 2025-08-24 23:41:59.747311+00:00          0.0 -1.009559  0.575494      0.327438         -1.205113        1.392197      1.277055            NaN           -0.041761                   0.477964               1.603253                  -0.337086                0.0          1.0             0.0                             0.0                1.0                          1.0                 0.0                0.0                1.0                                    1.0                             0.0                         0.0          0.0                 1.0               0.0                   0.0          0.0
+4  8166-ZZTFS 2025-08-24 23:41:59.747311+00:00          1.0 -1.009559  1.296054      0.327438          0.829798        0.524739      1.317092       1.329882           -1.177357                  -0.365329               1.061995                  -0.519815                1.0          1.0             0.0                             0.0                1.0                          0.0                 0.0                0.0                1.0                                    0.0                             0.0                         0.0          1.0                 1.0               0.0                   0.0          1.0
+2025-08-24 23:42:00,270 - INFO - train - Preparing data for modeling.
+2025-08-24 23:42:00,283 - INFO - train - Imputing missing values...
+2025-08-24 23:42:00,292 - INFO - train - Train/Test split complete. X_train shape: (5634, 27), X_test shape: (1409, 27)
+2025-08-24 23:42:02,106 - INFO - train - Training model: LogisticRegression
+2025-08-24 23:42:14,639 - INFO - train - Model: LogisticRegression, F1-Score: 1.0000
+2025-08-24 23:42:14,704 - INFO - train - Training model: RandomForest
+2025-08-24 23:42:20,934 - INFO - train - Model: RandomForest, F1-Score: 1.0000
+2025-08-24 23:42:20,999 - INFO - train - Training model: GradientBoosting
+2025-08-24 23:42:27,508 - INFO - train - Model: GradientBoosting, F1-Score: 1.0000
+2025-08-24 23:42:27,514 - INFO - train - Best model: LogisticRegression with F1-Score: 1.0000
+2025-08-24 23:42:27,516 - INFO - train - Best model saved to models/best_churn_model.pkl

@@ -9,8 +9,8 @@ N
 .
 __dummy"
 __dummy_idJcustomer_churn_pipeline
-†€«ÅÀæ°®†€«ÅÀæ°®1"$c61199ac-39ed-4385-94e3-e3aae49cbfb4*Í«Åˆ¬Ïp2Ü
-¥
+†€«ÅÀæ°®†€«ÅÀæ°®1"$bb05b3b6-317b-40cb-ae08-d1f75a2e3331*Ğ«­Å¸èù"2¹	
+§
 churn_features_viewcustomer_churn_pipeline
 customerID"
 
@@ -41,11 +41,16 @@ customerID"
 	Churn_Yes"
 tenure_group_Loyal"
 tenure_group_New"
-tenure_group_Unknown2€ç„:Áevent_timestampZmkC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢kC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet’È«Å¨«Ì="È«Å¨«Ì=@b
+tenure_group_Unknown2€ç„:Ãevent_timestampZmkC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢kC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquet’È«­Åø»÷î"È«­Åø»÷î@b
 
-customerID2
-†€«ÅÀæ°®Í«Åˆ¬Ïp
-Í§¦¶àÌ“A ©¬ÅRÖ
+customerIDŒ
+†€«ÅÀæ°®Ğ«­ÅÜ¼"
+Í§¦¶àÌ“A ©¬Å
+ ©¬ÅˆÙ¬Å
+ˆÙ¬Å‘Ú¬Å
+‘Ú¬ÅèÚ¬Å
+èÚ¬Åœª­Å
+œª­ÅÀ«­ÅRÖ
 Ó
 ,feast.infra.online_stores.sqlite.SqliteTable"¢
 sC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\feature_repo\feature_repo\data\online_store.db+customer_churn_pipeline_churn_features_viewbİevent_timestampZmkC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢kC:\Users\mrakkuma\Documents\vamsi\Assignment\customer_churn_pipeline\data\silver\cleaned_churn_data.parquetªcustomer_churn_pipeline’†€«ÅğÃ½"†€«ÅÀæ°®Š9
